@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGlow - Smart Light Bulb</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">EcoGlow</a>
+            <!-- <div class="hamburger" id="hamburger">&#9776;</div> -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="toggle">
+                <input type="checkbox" id="mode-toggle" class="toggle__input">
+                <label for="mode-toggle" class="toggle__label"></label>
+            </div>
+        </nav>
+        <div class="hero">
+            <p class="head">EcoGlow</p>
+            <p class="tagl">Your Eco-Friendly Smart Light Bulb</p>
+            <button class="buy">BUY NOW</button>
+            <div class="scroll-prompt">↓ Scroll Down</div>
+        </div>
+    </header>
+
+    <section class="features">
+        <h1 style="font-size: 6em;">Features</h1>
+        <div class="feature">
+            <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+            <h3>Energy Saving</h3>
+            <p>Reduce your energy consumption with our smart technology.</p>
+        </div>
+        <div class="feature">
+            <i class="fa fa-book fa-5x" aria-hidden="true"></i>
+            <h3>Smart Control</h3>
+            <p>Control your lights from anywhere using your smartphone.</p>
+        </div>
+        <div class="feature">
+            <i class="fa fa-money fa-5x" aria-hidden="true"></i>
+            <h3>Long Lasting</h3>
+            <p>Enjoy up to 25,000 hours of light with EcoGlow.</p>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="image1.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="/image2.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                  <img src="/image3.png" />
+                </div>
+                <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                </div>
+            </li>
+        
+        
+            <li class="nav-dots">
+              <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+              <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+              <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+
+            </li>
+        </ul>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"EcoGlow has transformed my home lighting!" - Sarah L.</p>
+        </div>
+        <div class="testimonial">
+            <p>"I love the energy savings!" - John D.</p>
+        </div>
+        <div class="testimonial">
+            <p>"The smart control feature is a game changer!" - Emily R.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            
+                <p class="copy" style="color: black;">Copyright © 2012 - 2024 EcoGlow. All rights reserved.</p>
+            
+            <div class="social-links">
+                <i class="fa fa-facebook" aria-hidden="true"></i><a href="#">Facebook</a>
+                <i class="fa fa-twitter" aria-hidden="true"></i><a href="#">Twitter</a>
+                <i class="fa fa-instagram" aria-hidden="true"></i><a href="#">Instagram</a>
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">Mail</a>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
